@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		876B45DB1FF3CE45007A05C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876B45DA1FF3CE45007A05C2 /* AppDelegate.swift */; };
+		876B45DD1FF3CE45007A05C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876B45DC1FF3CE45007A05C2 /* ViewController.swift */; };
+		876B45E01FF3CE45007A05C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 876B45DE1FF3CE45007A05C2 /* Main.storyboard */; };
+		876B45E31FF3CE45007A05C2 /* SecretDairy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 876B45E11FF3CE45007A05C2 /* SecretDairy.xcdatamodeld */; };
+		876B45E51FF3CE45007A05C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 876B45E41FF3CE45007A05C2 /* Assets.xcassets */; };
+		876B45E81FF3CE45007A05C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 876B45E61FF3CE45007A05C2 /* LaunchScreen.storyboard */; };
+		876B45F31FF3CE46007A05C2 /* SecretDairyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876B45F21FF3CE46007A05C2 /* SecretDairyTests.swift */; };
+		876B45FE1FF3CE46007A05C2 /* SecretDairyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876B45FD1FF3CE46007A05C2 /* SecretDairyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		876B45EF1FF3CE46007A05C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 876B45CF1FF3CE45007A05C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 876B45D61FF3CE45007A05C2;
+			remoteInfo = SecretDairy;
+		};
+		876B45FA1FF3CE46007A05C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 876B45CF1FF3CE45007A05C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 876B45D61FF3CE45007A05C2;
+			remoteInfo = SecretDairy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		876B45D71FF3CE45007A05C2 /* SecretDairy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecretDairy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		876B45DA1FF3CE45007A05C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		876B45DC1FF3CE45007A05C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		876B45DF1FF3CE45007A05C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		876B45E21FF3CE45007A05C2 /* SecretDairy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SecretDairy.xcdatamodel; sourceTree = "<group>"; };
+		876B45E41FF3CE45007A05C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		876B45E71FF3CE45007A05C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		876B45E91FF3CE45007A05C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		876B45EE1FF3CE46007A05C2 /* SecretDairyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecretDairyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		876B45F21FF3CE46007A05C2 /* SecretDairyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretDairyTests.swift; sourceTree = "<group>"; };
+		876B45F41FF3CE46007A05C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		876B45F91FF3CE46007A05C2 /* SecretDairyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecretDairyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		876B45FD1FF3CE46007A05C2 /* SecretDairyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretDairyUITests.swift; sourceTree = "<group>"; };
+		876B45FF1FF3CE46007A05C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		876B45D41FF3CE45007A05C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		876B45EB1FF3CE46007A05C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		876B45F61FF3CE46007A05C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		876B45CE1FF3CE45007A05C2 = {
+			isa = PBXGroup;
+			children = (
+				876B45D91FF3CE45007A05C2 /* SecretDairy */,
+				876B45F11FF3CE46007A05C2 /* SecretDairyTests */,
+				876B45FC1FF3CE46007A05C2 /* SecretDairyUITests */,
+				876B45D81FF3CE45007A05C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		876B45D81FF3CE45007A05C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				876B45D71FF3CE45007A05C2 /* SecretDairy.app */,
+				876B45EE1FF3CE46007A05C2 /* SecretDairyTests.xctest */,
+				876B45F91FF3CE46007A05C2 /* SecretDairyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		876B45D91FF3CE45007A05C2 /* SecretDairy */ = {
+			isa = PBXGroup;
+			children = (
+				876B45DA1FF3CE45007A05C2 /* AppDelegate.swift */,
+				876B45DC1FF3CE45007A05C2 /* ViewController.swift */,
+				876B45DE1FF3CE45007A05C2 /* Main.storyboard */,
+				876B45E41FF3CE45007A05C2 /* Assets.xcassets */,
+				876B45E61FF3CE45007A05C2 /* LaunchScreen.storyboard */,
+				876B45E91FF3CE45007A05C2 /* Info.plist */,
+				876B45E11FF3CE45007A05C2 /* SecretDairy.xcdatamodeld */,
+			);
+			path = SecretDairy;
+			sourceTree = "<group>";
+		};
+		876B45F11FF3CE46007A05C2 /* SecretDairyTests */ = {
+			isa = PBXGroup;
+			children = (
+				876B45F21FF3CE46007A05C2 /* SecretDairyTests.swift */,
+				876B45F41FF3CE46007A05C2 /* Info.plist */,
+			);
+			path = SecretDairyTests;
+			sourceTree = "<group>";
+		};
+		876B45FC1FF3CE46007A05C2 /* SecretDairyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				876B45FD1FF3CE46007A05C2 /* SecretDairyUITests.swift */,
+				876B45FF1FF3CE46007A05C2 /* Info.plist */,
+			);
+			path = SecretDairyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		876B45D61FF3CE45007A05C2 /* SecretDairy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 876B46021FF3CE46007A05C2 /* Build configuration list for PBXNativeTarget "SecretDairy" */;
+			buildPhases = (
+				876B45D31FF3CE45007A05C2 /* Sources */,
+				876B45D41FF3CE45007A05C2 /* Frameworks */,
+				876B45D51FF3CE45007A05C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SecretDairy;
+			productName = SecretDairy;
+			productReference = 876B45D71FF3CE45007A05C2 /* SecretDairy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		876B45ED1FF3CE46007A05C2 /* SecretDairyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 876B46051FF3CE46007A05C2 /* Build configuration list for PBXNativeTarget "SecretDairyTests" */;
+			buildPhases = (
+				876B45EA1FF3CE46007A05C2 /* Sources */,
+				876B45EB1FF3CE46007A05C2 /* Frameworks */,
+				876B45EC1FF3CE46007A05C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				876B45F01FF3CE46007A05C2 /* PBXTargetDependency */,
+			);
+			name = SecretDairyTests;
+			productName = SecretDairyTests;
+			productReference = 876B45EE1FF3CE46007A05C2 /* SecretDairyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		876B45F81FF3CE46007A05C2 /* SecretDairyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 876B46081FF3CE46007A05C2 /* Build configuration list for PBXNativeTarget "SecretDairyUITests" */;
+			buildPhases = (
+				876B45F51FF3CE46007A05C2 /* Sources */,
+				876B45F61FF3CE46007A05C2 /* Frameworks */,
+				876B45F71FF3CE46007A05C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				876B45FB1FF3CE46007A05C2 /* PBXTargetDependency */,
+			);
+			name = SecretDairyUITests;
+			productName = SecretDairyUITests;
+			productReference = 876B45F91FF3CE46007A05C2 /* SecretDairyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		876B45CF1FF3CE45007A05C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Muhammad Luqman";
+				TargetAttributes = {
+					876B45D61FF3CE45007A05C2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					876B45ED1FF3CE46007A05C2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 876B45D61FF3CE45007A05C2;
+					};
+					876B45F81FF3CE46007A05C2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 876B45D61FF3CE45007A05C2;
+					};
+				};
+			};
+			buildConfigurationList = 876B45D21FF3CE45007A05C2 /* Build configuration list for PBXProject "SecretDairy" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 876B45CE1FF3CE45007A05C2;
+			productRefGroup = 876B45D81FF3CE45007A05C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				876B45D61FF3CE45007A05C2 /* SecretDairy */,
+				876B45ED1FF3CE46007A05C2 /* SecretDairyTests */,
+				876B45F81FF3CE46007A05C2 /* SecretDairyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		876B45D51FF3CE45007A05C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				876B45E81FF3CE45007A05C2 /* LaunchScreen.storyboard in Resources */,
+				876B45E51FF3CE45007A05C2 /* Assets.xcassets in Resources */,
+				876B45E01FF3CE45007A05C2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		876B45EC1FF3CE46007A05C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		876B45F71FF3CE46007A05C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		876B45D31FF3CE45007A05C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				876B45DD1FF3CE45007A05C2 /* ViewController.swift in Sources */,
+				876B45E31FF3CE45007A05C2 /* SecretDairy.xcdatamodeld in Sources */,
+				876B45DB1FF3CE45007A05C2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		876B45EA1FF3CE46007A05C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				876B45F31FF3CE46007A05C2 /* SecretDairyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		876B45F51FF3CE46007A05C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				876B45FE1FF3CE46007A05C2 /* SecretDairyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		876B45F01FF3CE46007A05C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 876B45D61FF3CE45007A05C2 /* SecretDairy */;
+			targetProxy = 876B45EF1FF3CE46007A05C2 /* PBXContainerItemProxy */;
+		};
+		876B45FB1FF3CE46007A05C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 876B45D61FF3CE45007A05C2 /* SecretDairy */;
+			targetProxy = 876B45FA1FF3CE46007A05C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		876B45DE1FF3CE45007A05C2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				876B45DF1FF3CE45007A05C2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		876B45E61FF3CE45007A05C2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				876B45E71FF3CE45007A05C2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		876B46001FF3CE46007A05C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		876B46011FF3CE46007A05C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		876B46031FF3CE46007A05C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V73LJ8VDAT;
+				INFOPLIST_FILE = SecretDairy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = luqman.SecretDairy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		876B46041FF3CE46007A05C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V73LJ8VDAT;
+				INFOPLIST_FILE = SecretDairy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = luqman.SecretDairy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		876B46061FF3CE46007A05C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V73LJ8VDAT;
+				INFOPLIST_FILE = SecretDairyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = luqman.SecretDairyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SecretDairy.app/SecretDairy";
+			};
+			name = Debug;
+		};
+		876B46071FF3CE46007A05C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V73LJ8VDAT;
+				INFOPLIST_FILE = SecretDairyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = luqman.SecretDairyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SecretDairy.app/SecretDairy";
+			};
+			name = Release;
+		};
+		876B46091FF3CE46007A05C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V73LJ8VDAT;
+				INFOPLIST_FILE = SecretDairyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = luqman.SecretDairyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SecretDairy;
+			};
+			name = Debug;
+		};
+		876B460A1FF3CE46007A05C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V73LJ8VDAT;
+				INFOPLIST_FILE = SecretDairyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = luqman.SecretDairyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SecretDairy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		876B45D21FF3CE45007A05C2 /* Build configuration list for PBXProject "SecretDairy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				876B46001FF3CE46007A05C2 /* Debug */,
+				876B46011FF3CE46007A05C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		876B46021FF3CE46007A05C2 /* Build configuration list for PBXNativeTarget "SecretDairy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				876B46031FF3CE46007A05C2 /* Debug */,
+				876B46041FF3CE46007A05C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		876B46051FF3CE46007A05C2 /* Build configuration list for PBXNativeTarget "SecretDairyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				876B46061FF3CE46007A05C2 /* Debug */,
+				876B46071FF3CE46007A05C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		876B46081FF3CE46007A05C2 /* Build configuration list for PBXNativeTarget "SecretDairyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				876B46091FF3CE46007A05C2 /* Debug */,
+				876B460A1FF3CE46007A05C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		876B45E11FF3CE45007A05C2 /* SecretDairy.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				876B45E21FF3CE45007A05C2 /* SecretDairy.xcdatamodel */,
+			);
+			currentVersion = 876B45E21FF3CE45007A05C2 /* SecretDairy.xcdatamodel */;
+			path = SecretDairy.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 876B45CF1FF3CE45007A05C2 /* Project object */;
+}
